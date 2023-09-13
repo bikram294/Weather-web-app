@@ -1,0 +1,42 @@
+@media screen and (max-width: 1000px) {
+    .weather h1.temp{
+        font-size: 3.5rem;
+    }
+    .weather h2.city{
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .weather h1.temp{
+        font-size: 3rem;
+    }
+    .weather h2.city{
+        font-size: 2rem;
+    }
+    .weather-icon{
+        width: 145px;
+        margin-top: 25px;
+    }
+
+    .details{
+        padding: 0 10px;
+        margin-top: 30px;
+    }
+
+    .col{
+        flex-direction: column;
+        text-align: center;
+        width: 43%;
+        
+    }
+
+    .humidity, .wind{
+        font-size: 22px;
+        margin-top: 15px;
+        
+    }
+    .col img{
+        margin-right: 0;
+    }
+}
